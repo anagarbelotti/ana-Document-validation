@@ -54,7 +54,7 @@ function validateDocyment (_document)
     }
     else
     {
-        return false;
+        throw new Error("Invalid document!");
     }
 
     function verifyCpf (_document)
