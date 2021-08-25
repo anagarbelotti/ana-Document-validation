@@ -28,7 +28,7 @@ function validateDocyment (_document)
             throw new Error("Invalid document!");
         }
     }
-    else if (document.length === 14) // CPF with mask or CNPJ without mask
+    else if (document.length === 14) // CPF with mask or CNPJ without mask 
     {
         const validCpf = verifyCpf(document);
 
