@@ -48,9 +48,7 @@ function validateDocyment (_document)
             {
                 throw new Error("Invalid document!");
             }
-    
         }
-
     }
     else
     {
