@@ -1,4 +1,4 @@
-function validateDocyment (_document)
+function validateDocument (_document)
 {
     const document = _document.trim();
 
