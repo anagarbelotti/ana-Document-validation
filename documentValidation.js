@@ -134,7 +134,7 @@ function validateDocument (_document)
     function verifyCnpj  (_document)
     {
         const cnpj = _document.trim();
-        const regex = /^\d{2}\.\d{3}\.\d{3}\/000[1|2]-\d{2}$/;
+        const regex = /^\d{2}\.\d{3}\.\d{3}\/000[1|2]-\d{2}$|\d{14}/;
     
         if (typeof (cnpj) === "string" && regex.test(cnpj))
         {
