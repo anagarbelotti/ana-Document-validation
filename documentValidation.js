@@ -1,6 +1,6 @@
 function validateDocument (_document)
 {
-    const document = _document.trim();
+    const document = _document.trim()
 
     if (document.length === 11) // CPF without mask
     {
